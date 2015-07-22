@@ -3,48 +3,22 @@
 
 | **Learning Objectives** |
 | :---- |
-| Understand the basics of HTTP and the Client/Server model |
 | Distinguish between front-end and back-end development |
-| Introduce development tools like Git, Sublime, and Chrome Developer Tools  |
+| Learn about some of the tools of the trade: Git, Sublime, and Chrome Developer Tools  |
 | Learn and apply some basic HTML tags and CSS properties |
-| Focus on terminology.  Be able to speak the developer's language |
-| Establish a foundation for further research|
+| Apply what you've learned|
 
 <br>
 
-
-##HTTP and the Client/Server model
-<hr>
-
-Clients and Servers are *cooperating* programs within an application.  In this class our focus is on web servers, but there are other kinds (e.g. proxy server, FTP server).  The client of a web server is a web browser, which may be running on a desktop, laptop, or mobile device.
-
-With a few exceptions, all interactions between clients and servers are initiated by the client, which requests some resource or service from the server.  The conversation between client and server is known as the **Request/Response Cycle**.  The **protocol** (language) used in this conversation is HTTP, or HyperText Transfer Protocol.
-
-####HTTP methods - GET, POST, PUT, DELETE
-
-- Accomplish what is commonly known as CRUD - Create, Read, Update, Destroy
-- Have a look with Chrome Dev Tools
-
-####TCP/IP - (Probably TMI)
-
-This is a lower-level protocol that HTTP runs on top of. Think of the "IP address" of a computer on the internet.  Computer networking is divided into distinct "layers" of abstraction.  HTTP sits at the top on the Application layer and TCP/IP spans across several lower layers.  If you want to learn more, check out the [OSI model](https://en.wikipedia.org/wiki/OSI_model).
-
-####So what are Resources and Services?
-######maybe just speak to this, not include it
-
-- **Resource:** Documents, images, or collections of such.  Something that is identifiable
-- **Service:** A means of communcation between two applications, commonly known as an API, or Application Programming Interface.
-
-<br>
 
 ## Front-end Web Development
 <hr>
 
 
-The front-end developer's job is to program the layout and functionality of a website. This is accomplished by writing code in HTML, CSS, and Javascript.  In developer lingo, the collection of HTML, CSS, and Javascript files that bring a page to life are called **assets**
+The front-end developer's job is to program the layout and functionality of a website. This is accomplished by writing code in HTML, CSS, and Javascript.  In developer lingo, the collection of HTML, CSS, and Javascript files that bring a page to life are called **assets**.
 
-
-- **HTML** describes the structure and the semantic content of a web document. It is the scaffold that adds various layout elements to your website.
+<img src="http://www.cutecatgifs.com/wp-content/uploads/2013/12/Facepalm.gif">
+- **HTML** describes the structure and the semantic content of a web document. It is the scaffold that adds various layout elements to your website. 
 - **CSS** is a set of style properties that give your page its look and feel
 - **JavaScript** adds interactivity to the page.  When the user clicks a button, or submits a form, or there is some other kind of **event**, Javascript knows what to do.
 
