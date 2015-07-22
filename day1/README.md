@@ -28,7 +28,7 @@ The front-end developer's job is to program the layout and functionality of a we
 - **CSS** is a set of style properties that give your page its look and feel. (The skin?)
 - **JavaScript** (and its libraries) adds interactivity to the page.  When the user clicks a button, or submits a form, or there is some other kind of **event**, Javascript knows what to do. (The muscle.)
 
-Demo it in Chrome Dev Tools
+Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 
 <br>
 
