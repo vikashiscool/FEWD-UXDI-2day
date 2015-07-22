@@ -6,7 +6,7 @@
 [Day 1](day1/README.md)
 -
 
-- How does front-end web development fit in?
+- FEWD? WTF?
 - Developer tools and technologies
 - Intro to HTML + exercises 
 - Intro to CSS
