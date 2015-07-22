@@ -20,9 +20,9 @@
 
 <-- Art & Design                                          Computer Science -->
 
-| ------------- Web Designer ------------|
-                 | --------- Front End Developer ---------|
-                                     | --------- Back End Developer ---------|
+| ------------- Web Designer ------------|<br>
+                 | --------- Front End Developer ---------|<br>
+                                     | --------- Back End Developer ---------|<br>
                                      
 
 The front-end developer's job is to program the layout and functionality of a website. This is accomplished by writing code in HTML, CSS, and Javascript.  In developer lingo, the collection of HTML, CSS, and Javascript files that bring a page to life are called **assets**.
