@@ -57,22 +57,25 @@ Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 	- multi-window
 	- [keyboard shortcuts](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html)! (⌘+ everything)
 
-- Chrome Developer Tools
- 	- Inspect HTML elements and CSS style properties
-	- Debug Javascript
+- Chrome Developer Tools ((⌘ + option + J)
+ 	- Inspect and edit HTML elements and CSS style properties
 	- Program "what-if" scenarios
+	- Look at file structure
 	- Examine network activity
-- Git
+
+- Git/Github
 	- Version control
-	- Collaberation
+	- Collaboration
+
 - CSS Frameworks
 	- Bootstrap
 	- Foundation
-- Javascript Libraries
+	- Tons more
+
+- [Javascript Libraries](https://www.javascripting.com/)
 	- jQuery
 	- Underscore
-
-
+	- Tons more
 
 ## What is the benefit of UX Designers understanding FEWD?
 
@@ -81,7 +84,6 @@ Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 - Work with Axure-generated HTML, CSS, and JS
 
 <br>
-
 
 
 ##HTML
