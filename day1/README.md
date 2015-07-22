@@ -51,7 +51,7 @@ Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 
 ## Developer Tools
 
-- Sublime
+- [Sublime](http://www.sublimetext.com/)
 	- file types
 	- "open in browser" command
 	- multi-window
