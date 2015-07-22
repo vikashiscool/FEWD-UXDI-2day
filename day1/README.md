@@ -18,23 +18,15 @@
 
 *Front-end web development* consists of two overlapping components: **front-end web development** and **web design**
 
-<-- Art & Design                                          Computer Science -->
+<img src="http://image.slidesharecdn.com/ixda-russweakley-2015-02-02-v2-150202161632-conversion-gate02/95/specialise-or-crossskill-9-638.jpg">
 
-| ------------- Web Designer ------------|<br>
-                 | --------- Front End Developer ---------|<br>
-                                     | --------- Back End Developer ---------|<br>
-                                     
+The front-end developer's job is to program the layout and functionality of a website. Everything that you see when using the web is a combination of HTML, CSS, and JavaScript all being controlled by your computer’s browser (and not a central server). These include things like fonts, drop-down menus, buttons, transitions, sliders, contact forms, etc.
 
-The front-end developer's job is to program the layout and functionality of a website. This is accomplished by writing code in HTML, CSS, and Javascript.  In developer lingo, the collection of HTML, CSS, and Javascript files that bring a page to life are called **assets**.
+<img src="http://freestock.ca/antique_anatomy_illustration__human_skeleton_circa_1911_sjpg3242.jpg">
 
-
-
-- **HTML** describes the structure and the semantic content of a web document. It is the scaffold that adds various layout elements to your website. 
-- **CSS** is a set of style properties that give your page its look and feel
-- **JavaScript** adds interactivity to the page.  When the user clicks a button, or submits a form, or there is some other kind of **event**, Javascript knows what to do.
-
-### Assets and the Request/Response cycle
-
+- **HTML** describes the structure and the semantic content of a web document. It is the scaffold that adds various layout elements to your website. (The bones!)
+- **CSS** is a set of style properties that give your page its look and feel. (The skin?)
+- **JavaScript** adds interactivity to the page.  When the user clicks a button, or submits a form, or there is some other kind of **event**, Javascript knows what to do. (The muscle.)
 
 Demo it in Chrome Dev Tools
 
