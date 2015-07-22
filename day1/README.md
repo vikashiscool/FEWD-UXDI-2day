@@ -46,16 +46,16 @@ Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 	- PHP
 	- C++
 
-
+<img src="http://media.giphy.com/media/AqWimIaM4ao4U/giphy.gif">
 
 ## Developer Tools
 
 - Sublime
-	- linter, [Emmett](http://emmet.io/)
 	- file types
 	- "open in browser" command
 	- multi-window
-	- snippets
+	- [keyboard shortcuts](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html)! (⌘+ everything)
+
 - Chrome Developer Tools
  	- Inspect HTML elements and CSS style properties
 	- Debug Javascript
