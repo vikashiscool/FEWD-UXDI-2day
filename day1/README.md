@@ -16,30 +16,31 @@
 <hr>
 
 
-*Front-end web development* consists of two overlapping components: **front-end web development** and **web design**.
+**Front-end web development** consists of two overlapping components: *front-end web development* and *web design*.
 
 <img src="http://image.slidesharecdn.com/ixda-russweakley-2015-02-02-v2-150202161632-conversion-gate02/95/specialise-or-crossskill-9-638.jpg">
 
-The front-end developer's job is to program the layout and functionality of a website. Everything that you see when using the web is a combination of HTML, CSS, and JavaScript all being controlled by your computer’s browser (and not a central server). These include things like fonts, drop-down menus, buttons, transitions, sliders, contact forms, etc.
+The front-end developer's job is to program the *layout* and *functionality* of a website. Everything that you see when using the web is a combination of HTML, CSS, and JavaScript all being controlled by your computer’s browser (and not a central server). These include things like **fonts, drop-down menus, buttons, transitions, sliders, contact forms, etc.**
 
 <img src="http://freestock.ca/antique_anatomy_illustration__human_skeleton_circa_1911_sjpg3242.jpg">
 
 - **HTML** describes the structure and the semantic content of a web document. It is the scaffold that adds various layout elements to your website. (The bones!)
 - **CSS** is a set of style properties that give your page its look and feel. (The skin?)
 - **JavaScript** (and its libraries) adds interactivity to the page.  When the user clicks a button, or submits a form, or there is some other kind of **event**, Javascript knows what to do. (The muscle.)
+-- There are also tons of **front-end [frameworks](https://www.airpair.com/js/javascript-framework-comparison) and [libraries](https://www.javascripting.com/)** that make web applications prettier and more functional.
 
 Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 
 <br>
 
-## Back-end Web Development
+## Back-end Web Development (server + application + database)
 
 - Provides core behind-the-scenes functionality
 	- Manage user accounts
-	- Database operations - CRUD (Create, Read, Update, Destroy)
+	- Database stuff - CRUD operations (Create, Read, Update, Destroy)
 	- Reliability
 	- Security
-	- Tends to me a more complex undertaking than front-end development
+
 - Languages
 	- Ruby
 	- Python
