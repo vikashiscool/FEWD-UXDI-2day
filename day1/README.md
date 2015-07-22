@@ -93,9 +93,9 @@ Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 
 **Elements** are the basic HTML building blocks of a web page. They are comprised of a *tag, attribute, value, and some sort of content.* 
 
-**Tags** define the element and any attributes it has. (e.g. <h1></h1> <p></p> <img>)
+**Tags** define the element and any attributes it has. (e.g. headers, paragraphs, images)
 
-**Attributes** modify an element in some way. (e.g. class, id)
+**Attributes** modify an element in some way. They bridge the gap between HTML and CSS. (e.g. class, id)
 
 **Values** define how the element will be modified. (based on CSS)
 
@@ -117,8 +117,6 @@ Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 ##Common  HTML Elements
 For a comprehensive list: [MDN HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference)
 
-Exercises:
-
 
 ###Required elements - \<html>, \<head>, \<body>
 - `<!DOCTYPE html>` identifies the doc as HTML5
@@ -131,7 +129,7 @@ Exercises:
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Document</title>
+  <title>BEST WEBSITE EVERRR</title>
 </head>
 <body>
   <!-- Contents of the page go here -->
@@ -140,26 +138,26 @@ Exercises:
 ```
 
 ###\<div>
-- Generic container that helps organize content on the page
+- Like empty rectangular containers that help organize content on the page
 - An arbitrary number of other elements can be nested inside of a `<div>`, including other `<div>` elements
 
 ```
  <div class='row'>
-   <div class='column'>
+   <div class='column1'>
      <!-- column 1 content here -->
-   </div
-   <div class='column'>
+   </div>
+   <div class='column2'>
      <!-- column 2 content here -->
-   </div
+   </div>
  </div>
 ```
 
 ###\<span>
-- Generic container like a `<div>`, however `<span>` is for **inline** elements while `<div>` is for **block-level** elements
+- Generic container like a `<div>`, but `<span>` is for **inline** elements while `<div>` is for **block-level** elements
 - usually used to single out some snippet of text for styling
 
 ```
- <p>This topic is <span class='important'>very important!</span></p>
+ <p>Learning about web design is <span class='important-stuff'>THE BEST.</span></p>
 ```
 
 ###\<a>
@@ -177,9 +175,9 @@ Exercises:
 ```
 
 ###\<input>
-- Interactive controls	for accepting user input.  There are several different types...
+- Interactive controls for accepting user input.  There are several different types...
 - The `type` attribute allows for different forms of user input (e.g. text, checkbox, radio button, date)
-- Self-closing element, i.e. no closing tag is required
+- Like the anchor tag, it's a **self-closing element**, i.e. no closing tag is required
 
 ```
 <label for="name">Name: </label>
