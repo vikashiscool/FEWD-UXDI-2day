@@ -79,8 +79,9 @@ Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 
 ## What is the benefit of UX Designers understanding FEWD?
 
-- Communicate with your development partner
-- Add to existing website
+- Marketability ($$$)
+- Better communication with your development team
+- Better understanding of existing web applications and code stacks
 - Work with Axure-generated HTML, CSS, and JS
 
 <br>
