@@ -162,6 +162,7 @@ For a comprehensive list: [MDN HTML Reference](https://developer.mozilla.org/en-
 
 ###\<a>
 - Anchor link: clickable link to any web page or to any element in the same page
+- Also used to insert images from the web
 
 ```
  <!-- link to some external site -->
@@ -208,7 +209,7 @@ For a comprehensive list: [MDN HTML Reference](https://developer.mozilla.org/en-
 
 ###\<p>
 ```
- <p>I'm a paragraph!</p>
+ <p>Paragraphs are my fave.</p>
 ```
 
 
@@ -220,8 +221,7 @@ For a comprehensive list: [MDN HTML Reference](https://developer.mozilla.org/en-
 
 
 ###\<ul>
-- unordered list
-- also `<ol>` for ordered lists
+- unordered list (aka bulleted lists)
 
 ```
  <ul>My to-do list
@@ -230,7 +230,16 @@ For a comprehensive list: [MDN HTML Reference](https://developer.mozilla.org/en-
    <li>item 3</li>
  </ul>
 ```
+###\<ol>
+-  ordered lists (aka numbered lists)
 
+```
+<ul>
+   <li>One</li>
+   <li>Dos</li>
+   <li>Trois</li>
+</ul>
+```
 
 ###\<img>
 - display an image
@@ -238,30 +247,37 @@ For a comprehensive list: [MDN HTML Reference](https://developer.mozilla.org/en-
 - self-closing element (no closing tag needed)
 
 ```
-<img src="/path/to/my_image.jpg">
+<img src="/path/fluffykittens.jpg">
 ```
-
 
 
 ###Including CSS with HTML
-- including CSS from an external file:
+- In order to run external CSS, you need to link it to the HTML file. This usually goes in the `head` tag:
 
 ```
-<link rel="stylesheet" href="/path/to/main.css">
+<link rel="stylesheet" href="/css/main.css">
 ```
 
-- including CSS internally:
+- Including CSS internally:
 
 ```
  <head>
    <style>
      <!-- style rules here -->
+     p{
+     font-size: 36px;
+     }
+     
+     h2{
+     color: blue;
+     }
+     
    </style>
  </head
 ```
 
 ###Including Javascript with HTML
-- put your javascript code between `<script>` tags, or...
+- put your javascript code between `<script>` tags at the end of your document, or...
 - use the `src` attribute to specify an external file containing the javascript
 
 ```
