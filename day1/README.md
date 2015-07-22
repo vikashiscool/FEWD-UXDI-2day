@@ -57,7 +57,7 @@ Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 	- multi-window
 	- [keyboard shortcuts](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html)! (⌘+ everything)
 
-- Chrome Developer Tools ((⌘ + option + J)
+- Chrome Developer Tools (⌘ + option + J)
  	- Inspect and edit HTML elements and CSS style properties
 	- Program "what-if" scenarios
 	- Look at file structure
@@ -161,8 +161,7 @@ For a comprehensive list: [MDN HTML Reference](https://developer.mozilla.org/en-
 ```
 
 ###\<a>
-- Anchor link: clickable link to any web page or to any element in the same page
-- Also used to insert images from the web
+- Anchor link: clickable link to any URL or to any element in the same page
 
 ```
  <!-- link to some external site -->
