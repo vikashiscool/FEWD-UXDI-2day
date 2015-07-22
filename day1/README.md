@@ -7,9 +7,10 @@
 | Learn about some of the tools of the trade: Git, Sublime, and Chrome Developer Tools  |
 | Learn and apply some basic HTML tags and CSS properties |
 | Apply what you've learned|
+| All of the things|
 
 <br>
-
+<img src="https://torsaporsa.files.wordpress.com/2013/09/iltni.jpg">
 
 ## Front-end Web Development
 <hr>
@@ -17,7 +18,8 @@
 
 The front-end developer's job is to program the layout and functionality of a website. This is accomplished by writing code in HTML, CSS, and Javascript.  In developer lingo, the collection of HTML, CSS, and Javascript files that bring a page to life are called **assets**.
 
-<img src="http://www.cutecatgifs.com/wp-content/uploads/2013/12/Facepalm.gif">
+
+
 - **HTML** describes the structure and the semantic content of a web document. It is the scaffold that adds various layout elements to your website. 
 - **CSS** is a set of style properties that give your page its look and feel
 - **JavaScript** adds interactivity to the page.  When the user clicks a button, or submits a form, or there is some other kind of **event**, Javascript knows what to do.
