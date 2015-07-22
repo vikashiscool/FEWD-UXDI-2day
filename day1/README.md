@@ -16,7 +16,7 @@
 <hr>
 
 
-*Front-end web development* consists of two overlapping components: **front-end web development** and **web design**
+*Front-end web development* consists of two overlapping components: **front-end web development** and **web design**.
 
 <img src="http://image.slidesharecdn.com/ixda-russweakley-2015-02-02-v2-150202161632-conversion-gate02/95/specialise-or-crossskill-9-638.jpg">
 
@@ -26,7 +26,7 @@ The front-end developer's job is to program the layout and functionality of a we
 
 - **HTML** describes the structure and the semantic content of a web document. It is the scaffold that adds various layout elements to your website. (The bones!)
 - **CSS** is a set of style properties that give your page its look and feel. (The skin?)
-- **JavaScript** adds interactivity to the page.  When the user clicks a button, or submits a form, or there is some other kind of **event**, Javascript knows what to do. (The muscle.)
+- **JavaScript** (and its libraries) adds interactivity to the page.  When the user clicks a button, or submits a form, or there is some other kind of **event**, Javascript knows what to do. (The muscle.)
 
 Demo it in Chrome Dev Tools
 
