@@ -16,6 +16,15 @@
 <hr>
 
 
+*Front-end web development* consists of two overlapping components: **front-end web development** and **web design**
+
+<-- Art & Design                                          Computer Science -->
+
+| ------------- Web Designer ------------|
+                 | --------- Front End Developer ---------|
+                                     | --------- Back End Developer ---------|
+                                     
+
 The front-end developer's job is to program the layout and functionality of a website. This is accomplished by writing code in HTML, CSS, and Javascript.  In developer lingo, the collection of HTML, CSS, and Javascript files that bring a page to life are called **assets**.
 
 
