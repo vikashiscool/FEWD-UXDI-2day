@@ -157,7 +157,7 @@ For a comprehensive list: [MDN HTML Reference](https://developer.mozilla.org/en-
 - usually used to single out some snippet of text for styling
 
 ```
- <p>Learning about web design is <span class='important-stuff'>THE BEST.</span></p>
+ <p>Learning about web design is <span class='best-class-ever'>THE BEST.</span></p>
 ```
 
 ###\<a>
@@ -193,15 +193,8 @@ For a comprehensive list: [MDN HTML Reference](https://developer.mozilla.org/en-
 ###\<form>
 - Forms are one of the most common ways to send user input to a server
 - Inputs contained within the form get sent to the server on **submit** event 
-	- What triggers a submit?  usually `<input type="submit">` is clicked.  
+	- What triggers a submit?  Usually `<input type="submit">` is clicked.  
 - The inputs of a form are collectively referred to as **form controls**
-- Two essential attributes...
-	- `action` - this specifies where the data will be sent when it's submitted, or its **route**.  The server-side code will be set up to handle routes. If no action is specified, default will be the current page. 
-	- `method` - this specifies the HTTP method used to handle the submit request. If none is specified, default is POST 
-		- GET = retrieve data from the server (think of a Google Search)
-		- POST = provide data to the server (think of filling out a user profile)
-		- also PUT (update) and DELETE, but those get trickier
-- Let's look at an example...
 
 <br>
 
