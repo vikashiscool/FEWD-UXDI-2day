@@ -6,8 +6,11 @@
 * What we want to explore further
 
 #So many tools
-* Use *package control* to install the [Emmet](emmet.io) package into Sublime. #productivity!
-* 
+* Use *package control* to install the [Emmet](emmet.io) package into Sublime. #productivity #teamwork
+* CSS color-finding tools: 
+  * [http://color.hailpixel.com/](http://color.hailpixel.com/)
+  * [https://color.adobe.com/create/color-wheel/](https://color.adobe.com/create/color-wheel/)
+
 
 ##Intro to Bootstrap
 
@@ -58,7 +61,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Responsive_web_design)
 To ensure all your Bootstrap styles behave properly, always put your content inside an element with a class "container" (usually `<div class="container">`). This will center your content and leave a small margin on the sides of the page. If you would like to use the full width of the screen (no margin) use `class="container-fluid"`
 
 ####Page layout using the Grid System
-Bootstrap's grid system is based on the idea that a page layout for any given screen size is represented with 12 fluid **columns**.  Columns are almost always contained in **rows** ...
+Bootstrap's grid system is based on the idea that a page layout for any given screen size is represented with 12 fluid **columns**.  Columns are always horizontally contained in **rows**, which in turn are contained inside of the previously mentioned `container` (container > row > column):
 
 1. Create a row: 
 
@@ -86,6 +89,8 @@ Here's an example of a two-column layout that spans the width of the page.  Noti
 ```
 
 For other examples, check out the [Bootstrap docs](http://getbootstrap.com/css/#grid)  
+
+
 
 You can also offset and nest your columns. When you offset a column, you add a column of whitespace and push the column to the right.  Example:
 
