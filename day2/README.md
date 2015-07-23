@@ -1,11 +1,11 @@
-##Day 2
+#Day 2
 
 ##Review of Day 1
 * What we learned
 * What we're still fuzzy about
 * What we want to explore further
 
-#So many tools
+##So many tools
 * Use *package control* to install the [Emmet](emmet.io) package into Sublime. #productivity #teamwork
 * CSS color-finding tools: 
   * [http://color.hailpixel.com/](http://color.hailpixel.com/)
@@ -90,6 +90,12 @@ Here's an example of a two-column layout that spans the width of the page.  Noti
 
 For other examples, check out the [Bootstrap docs](http://getbootstrap.com/css/#grid)  
 
+##Breakpoints
+* The way that Bootstrap works is to dynamically reduce column size according to the window size.
+* To be mobile (and tablet!) -friendly, the columns will break into a stack layout after a minimum width is detected.
+* The breakpoints you can select in your columns control at which point this happens.
+* Check out their [documentation](http://getbootstrap.com/css/#grid) here to see what these breakpoints are in terms of size.
+* Let's test it!
 
 
 You can also offset and nest your columns. When you offset a column, you add a column of whitespace and push the column to the right.  Example:
