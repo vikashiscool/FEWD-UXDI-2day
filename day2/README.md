@@ -4,6 +4,7 @@
 * What we learned
 * What we're still fuzzy about
 * What we want to explore further
+* Hopes/dreams/fears for today
 
 ##So many tools
 * Use *package control* to install the [Emmet](emmet.io) package into Sublime. #productivity #teamwork
