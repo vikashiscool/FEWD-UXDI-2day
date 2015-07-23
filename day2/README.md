@@ -1,10 +1,24 @@
 ##Day 2
 
+##Review of Day 1
+* What we learned
+* What we're still fuzzy about
+* What we want to explore further
+
+#So many tools
+* Use *package control* to install the [Emmet](emmet.io) package into Sublime. #productivity!
+* 
+
 ##Intro to Bootstrap
 
-A few years back, some developers at Twitter created Bootstrap as a way to encourage UI consistency across Twitter's internal tools. Many other developers at Twitter started to contribute and Bootstrap was released to the world as an open-source poject in 2011.
+* [Bootstrap](http://www.w3schools.com/bootstrap/) is a **front-end framework** created by a small team of developers at Twitter and maintained by a much larger community of contributors.
+* Let's take a look at the documentation: [http://getbootstrap.com](http://getbootstrap.com).
+* The framework consists of one main CSS file, an optional theme CSS file, and a main JS file.
+* Bootstrap requires [jQuery](https://code.jquery.com/) to work, which is a JavaScript library.
 
-Bootstrap is extremely popular and knowledge of at least one CSS framework is a very valuable skill to have. Bootstrap comes with a ton of features including:
+Bootstrap is extremely popular and knowledge of at least one CSS framework is a very valuable skill to have (and totally worth putting on your resume). 
+
+Bootstrap comes with a ton of features, including:
 
 - Reponsive Grid System
 - CSS library for quick and easy styling
@@ -13,25 +27,32 @@ Bootstrap is extremely popular and knowledge of at least one CSS framework is a 
 	- buttons
 	- forms
 	- etc.
-- Javascript Plugins to make your page interactive
+- Javascript widgets to make your page interactive
+- Tons more
 
 
 ##Including Bootstrap with HTML
-We need to include Bootstrap's CSS and Javascript libraries.  We also need to inclue jQuery, as Bootstrap's JS plug-ins depend on it.  There are a few different ways to accomplish this, listed below.  In this class, we'll keep things easy and use the first approach.
+* To use Bootstrap, we need to include Bootstrap's CSS and Javascript libraries (+ or - an optional Bootstrap-Theme CSS file).
+* We also need to inclue jQuery, as Bootstrap's JS plug-ins depend on it.  
+* There are a few different ways to accomplish this, listed below. In this class, we'll keep it simple and stick with the CDN.
 
-1. CDN (Content Delivery Network - someone else hosts the library/framework and you access it via a URL)
+1. CDN (Content Delivery Network - someone else hosts the library/framework and you access it via a URL):  [http://getbootstrap.com/getting-started/#download-cdn](http://getbootstrap.com/getting-started/#download-cdn). Where do we include these in our HTML file?
 2. Include the actual CSS and JS files - great for offline development
-3. Bower - a package manager for front-end dependencies.  This is the approach a developer would likely take in order to create a robust, production application.
+3. Bower - a package manager for front-end dependencies.  This is the approach a developer would likely take in order to create a production-ready web app.
 
 ##What is Responsive Design?
-From Wikipedia:
 
-"Responsive web design (RWD) is an approach to web design aimed at crafting sites to provide an optimal viewing and interaction experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from desktop computer monitors to mobile phones).
+"Responsive web design (RWD) is an approach to web design aimed at crafting sites to provide an optimal viewing and interaction experience— easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from desktop computer monitors to laptops to cellphones).
 
-A site designed with RWD adapts the layout to the viewing environment by using fluid, proportion-based grids..."
+A site designed with RWD adapts the layout to the viewing environment by using fluid, proportion-based grids, flexible images, etc..."
+
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Responsive_web_design)
 
 
-##Responsive Grid System
+##Responsive Grid System (aka Columns of Craziness)
+* Columns are written in the following format as a class attribute: `col-(breakpoint)-(offset)`
+* For example: `col-sm-4`
+* Columns are often wrapped into an element with a class of `row` or `container`.
 
 ####Start with a container
 To ensure all your Bootstrap styles behave properly, always put your content inside an element with a class "container" (usually `<div class="container">`). This will center your content and leave a small margin on the sides of the page. If you would like to use the full width of the screen (no margin) use `class="container-fluid"`
@@ -46,12 +67,12 @@ Bootstrap's grid system is based on the idea that a page layout for any given sc
 	```
 	
 2. Inside your row, create a column for the targeted screen size: 
-	- col-xs = < 768px
-	- col-sm = < 992px
-	- col-md = < 1200px
-	- col-lg = > 1200px
+	- col-xs < 768px (e.g. smartphones)
+	- col-sm ≥ 992px (e.g. tablets)
+	- col-md ≥ 1200px (e.g. laptops, desktops)
+	- col-lg ≥ 1200px (e.g. large desktops, smart TVs)
 
-Here's an example of a two-column layout that spans the width of the page.  Notice that the widths of the two columns add up to 12.  The column content of any row must always be less than or equal to 12.
+Here's an example of a two-column layout that spans the width of the page.  Notice that the widths of the two columns add up to 12.  The column content of any row must always be ≤12.
 
 ```
  <div class="row">
@@ -59,7 +80,7 @@ Here's an example of a two-column layout that spans the width of the page.  Noti
      <p>I'm a medium-sized column</p>
     </div>
    <div class="col-md-6">
-     <p>Me too!</p>
+     <p>Me too! We have SO much in common</p>
    </div>
  </div>
 ```
