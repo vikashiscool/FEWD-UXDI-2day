@@ -89,8 +89,6 @@ Demo in [Chrome Dev Tools](https://developer.chrome.com/devtools)
 
 ##HTML
 
-<img src="http://openhighschoolcourses.org/pluginfile.php/12579/mod_book/chapter/4069/lessons/03/images/p_element.jpg">
-
 **Elements** are the basic HTML building blocks of a web page. They are comprised of a *tag, attribute, value, and some sort of content.* 
 
 **Tags** define the element and any attributes it has. (e.g. headers, paragraphs, images)
